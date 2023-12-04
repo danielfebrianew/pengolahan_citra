@@ -19,35 +19,37 @@
                     <canvas alt="preview-img" id="kanvas"></canvas>
                 </div>
             </div>
-            <div class="editor-panel">
-                <div class="filter">
-                    <label class="title">Controls</label>
-                    <div class="options">
-                        <button id="nothing" class="active hidden"></button>
-                        <button id="inverse">Inverse</button>
-                        <button id="grayscale">Grayscale</button>
-                        <button id="binary">Binary</button>
-                        <button id="gausialFilter">Gausian Filter</button>
-                        <button id="sobel">Sobel</button>
-                    </div>
-                    <div class="slider">
-                        <div class="filter-info">
-                            <p class="name">Brighteness</p>
+            <div class="bawah">
+                <div class="editor-panel">
+                    <div class="filter">
+                        <label class="title">Controls</label>
+                        <div class="options">
+                            <button id="nothing" class="active hidden"></button>
+                            <button id="inverse">Inverse</button>
+                            <button id="grayscale">Grayscale</button>
+                            <button id="binary">Binary</button>
+                            <button id="gausialFilter">Gausian Filter</button>
+                            <button id="sobel">Sobel</button>
                         </div>
-                        <input type="range" value="0" min="-100" max="100" id="inp-brightness">
-                        <div class="filter-info">
-                            <p class="name">Contrast</p>
+                        <div class="slider">
+                            <div class="filter-info">
+                                <p class="name">Brighteness</p>
+                            </div>
+                            <input type="range" value="0" min="-100" max="100" id="inp-brightness">
+                            <div class="filter-info">
+                                <p class="name">Contrast</p>
+                            </div>
+                            <input type="range" value="100" min="0" max="200" id="inp-contrast">
                         </div>
-                        <input type="range" value="100" min="0" max="200" id="inp-contrast">
                     </div>
-                </div>
-                <div class="rotate">
-                    <label class="title">Rotate & Flip</label>
-                    <div class="options">
-                        <button id="left" class="fa-solid fa-rotate-left"></button>
-                        <button id="right" class="fa-solid fa-rotate-right"></button> 
-                        <button id="horizontal" class='bx bx-reflect-vertical'></button>
-                        <button id="vertical" class='bx bx-reflect-horizontal'></button>
+                    <div class="rotate">
+                        <label class="title">Rotate & Flip</label>
+                        <div class="options">
+                            <button id="left" class="fa-solid fa-rotate-left"></button>
+                            <button id="right" class="fa-solid fa-rotate-right"></button> 
+                            <button id="horizontal" class='bx bx-reflect-vertical'></button>
+                            <button id="vertical" class='bx bx-reflect-horizontal'></button>
+                        </div>
                     </div>
                 </div>
                 <div class="controls">
