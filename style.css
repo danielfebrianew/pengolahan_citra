@@ -39,11 +39,9 @@ body{
 }
 
 .container .wrapper{
-  display: flex;
+    display: flex;
     margin: 20px 0;
     min-height: 335px;
-    flex-direction: column; 
-    align-items: center; 
     justify-content: space-between; 
 }
 
@@ -95,8 +93,8 @@ body{
 
 .filter button.active{
   color: #ffffff;
-  border-color: #d4b273;
-  background: #8b714a;
+  border-color: #5188A0;
+  background: #5188A0;
 }
 
 .filter .slider{
@@ -114,7 +112,7 @@ body{
   width: 80%;
   height: 5px;
   color: #73d493;
-  background-color: #8b714a;
+  background-color: #5188A0;
   /* -webkit-appearance: none; */
 }
  

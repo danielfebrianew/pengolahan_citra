@@ -12,18 +12,16 @@
 </head>
 <body>
     <div class="container">
-        <h2>Editor</h2>
         <div class="wrapper">
             <div class="preview-img">
                 <div class="after-edited">
-                    <span class="canvas-label-after">After Edited</span>
+                    <span class="canvas-label-after">Image Result</span>
                     <canvas alt="preview-img" id="kanvas"></canvas>
                 </div>
             </div>
-
             <div class="editor-panel">
                 <div class="filter">
-                    <label class="title">Editor Panel</label>
+                    <label class="title">Controls</label>
                     <div class="options">
                         <button id="nothing" class="active hidden"></button>
                         <button id="inverse">Inverse</button>
@@ -52,14 +50,14 @@
                         <button id="vertical" class='bx bx-reflect-horizontal'></button>
                     </div>
                 </div>
-            </div>
-            <div class="controls">
-                <div class="resetDiv">
-                    <button class="reset-filter">Reset Filters</button>
-                </div>
-                <div class="row">
-                    <input type="file" class="file-input" accept="image/*" id="imgFile">
-                    <button id="downloadBtn">Simpan Gambar</button>
+                <div class="controls">
+                    <div class="resetDiv">
+                        <button class="reset-filter">Reset</button>
+                    </div>
+                    <div class="row">
+                        <input type="file" class="file-input" accept="image/*" id="imgFile">
+                        <button id="downloadBtn">Save</button>
+                    </div>
                 </div>
             </div>
         </div>
